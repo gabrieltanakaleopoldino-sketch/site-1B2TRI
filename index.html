@@ -42,6 +42,7 @@
             <h2>Boas vindas</h2>
             <p>seja bem vindo ao site do vozinha</p>
             <p class="artigo-autor"> por:Gabriel Tanaka</p>
+            <button>❤️ <span>0</span></button>
             </div>
         </main>
 </body>
@@ -51,7 +52,7 @@
  botao.addEventListener("click", botaoClicado);
  function botaoClicado() {
  console.log("fui clicado");
- let texto = botao.querySelector("spam");
+ let texto = botao.querySelector("span");
  texto.textContent++;
 }
 </script>
